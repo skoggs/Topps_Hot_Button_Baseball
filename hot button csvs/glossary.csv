@@ -1,0 +1,35 @@
+﻿Player Card Sheets,All of the important information about the player cards. Also why I made this sheet!
+Card #,This is the collector's number of the given player.
+Starter,"""y"", short for yes, indicates the card can be found in the starter set i.e. it is MUCH easier to find than other cards."
+Rat,"Short for Hot Rating, the player's rating given on the player's card. Highest is 98, lowest is 60. Has a strong correlation coefficient of 0.65 with WAR/Wins Above Replacement."
+Spd,"""*"" indicates that the card has Speed. Having 5 cards on your roster with Speed gives a currently unknown bonus."
+Def,"""*"" indicates that the card has Defense. Having 5 cards on your roster with Defense gives a currently unknown bonus."
+WAR,"This is an estimate of a player's WAR/Wins Above Replacement with an assumption of 600 PA/Plate Appearances, 900 BF/Batters Faced, and an average of 2 WAR for cards in the player pool."
+IRL WAR,"This is a players offensive fWAR or pitcher's fWAR in the 2004 season, adjusted to  600 PA or 900 BF. (fWar being Fangraphs WAR)"
+DIFF,This is the difference between my calculated WAR and IRL WAR.
+Special,This is the player's special ability. 
+Success %,This is the player's chance of success based on their printed card values. Note that stolen base % has a blanket 50% boost.
+1-10,These are the printed player outcomes for the player's non-special outcomes.
+R1-10,These are the effects of run values multiplied by the chance of that outcome happening. Summing these values together is a core part of estimating player WAR.
+BWAR,This is a version of estimated WAR without special abilities factored in.
+SWAR,This is the adjustment to a player's WAR when special abilities are included. Note that players will have a negative adjustment if they have a weak ability.
+OBP,This is a player's on base percentage when not using their special ability. This is necessary for calculating the potency of the stolen base abilities.
+,
+Odds,A sheet for estimating how the Hot Button Baseball lights work probabalistically.
+#,"This is the corresponding light on the Hot Button Baseball Machine, from top to bottom, where top is the most common."
+Hits,How many times the light lit up in my 500 trials.
+Std,An estimated standard deviation of the number of hits.
+Percentage,The percentage of the time the light lit up in my 500 trials.
+Std%,The estimated standard deviation of the number of hits converted to percentage form.
+Estimated Odds/256,"These are the estimated values where a given light would activate with a 256 number (two hexadecimal) random number generator, which is the probable calculation method."
+Est256%,These are the numbers out of 256 converted to a percentage.
+,
+Linear Weights,
+These are the run values for various baseball outcomes. Used to calculate run expectancy of player cards.,
+There is also a column included for calculating on base percentage.,
+,
+Starter Deck Draft,
+An example 2-player draft of the 20 starter deck cards. The contents of the decks were modified slightly to make them more evenly matched. (Lance Berkman is OP.),
+,
+Fangraphs Sheets,
+"Remnants of my spreadsheets used to calculate ""IRL WAR"".",
